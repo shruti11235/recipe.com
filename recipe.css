@@ -1,0 +1,358 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    text-decoration:none;
+    list-style:none;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:35px 12%;
+    background:rgba(0, 0,0,0.8);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+.break{
+    color:orangered;
+    font-weight:bold;
+}
+.break:hover{
+    text-decoration:underline;
+}
+.logo{
+    font-size:25px;
+    color:white;
+    font-weight:600;
+    transition:0.3s ease;
+}
+.logo:hover{
+    color:orangered;
+    text-shadow:0 0 25px orangered,
+                0 0 50px orangered;
+    transform:scale(1.1);
+}
+span{
+    color:orangered;
+}
+.navbar a{
+    font-size:18px;
+    color:white;
+    font-weight:500;
+    margin:0 20px;
+    border-bottom:3px solid transparent;
+    transition:0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:orangered;
+    border-bottom:3px solid orangered;
+}
+.contact{
+    padding: 10px 28px;
+    background-color:orangered;
+    color:white;
+    border: 2px solid transparent;
+    border-radius:8px;
+    font-size:16px;
+    letter-spacing:1px;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+.contact:hover{
+background-color:orangered;
+color:white;
+box-shadow:0 0 25px orangered;
+}
+
+h1{
+    position:relative;
+    margin-top:150px;
+    margin-left:50px;
+}
+
+.home{
+      width:100%;
+      min-height:100vh;
+      background:rgb(255, 255, 255);
+      display:flex;
+      gap:8px;
+}
+
+.home-content{
+    display:block;
+    flex-direction:row;
+}
+
+.lunch{
+    margin-top:-140px;
+    color:orangered;
+    font-weight:bold;
+}
+.lunch:hover{
+    text-decoration:underline;
+}
+
+.b-1,
+.b-2,
+.b-3,
+.b-4,
+.b-5{
+    height:500px;
+    width:350px;
+    border-style:solid;
+    border-color:rgb(255, 255, 34);
+    border-width:3px;
+    border-radius:30px;
+    display: inline-flex;
+    flex-direction:row;
+    margin-left:43px;
+    margin-top:20px;
+}
+
+.b-1:hover,
+.b-2:hover,
+.b-3:hover,
+.b-4:hover,
+.b-5:hover{
+    transition:0.3s ease;
+    border-color:orangered;
+    cursor:pointer;
+}
+
+.l-1,
+.l-2,
+.l-3,
+.l-4,
+.l-5{
+    height:500px;
+    width:350px;
+    border-style:solid;
+    border-color:rgb(255, 255, 34);
+    border-width:3px;
+    border-radius:30px;
+    display: inline-flex;
+    flex-direction:row;
+    margin-top:25px;
+    margin-left:43px;
+}
+.l-1:hover,
+.l-2:hover,
+.l-3:hover,
+.l-4:hover,
+.l-5:hover{
+    transition:0.3s ease;
+    border-color:orangered;
+    cursor:pointer;
+}
+.dinner{
+    margin-top:-140px;
+    color:orangered;
+    font-weight:bold;
+}
+.dinner:hover{
+    text-decoration:underline;
+}
+
+.d-1,
+.d-2,
+.d-3,
+.d-4,
+.d-5{
+    height:500px;
+    width:350px;
+    border-style:solid;
+    border-color:rgb(255, 255, 34);
+    border-width:3px;
+    border-radius:30px;
+    display: inline-flex;
+    flex-direction:row;
+    margin-left:43px;
+    margin-top:20px;
+}
+
+.d-1:hover,
+.d-2:hover,
+.d-3:hover,
+.d-4:hover,
+.d-5:hover{
+    transition:0.3s ease;
+    border-color:orangered;
+    cursor:pointer;
+}
+.bb1,
+.bb2,
+.bb3,
+.bb4,
+.bb5{
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:18px;
+    background-color:white;
+    color:orangered;
+    border-style:solid;
+    border-color:orangered;
+    border-radius:30px;
+    margin-top:10px;
+    margin-left:150px;
+}
+
+.bb1:hover,
+.bb2:hover,
+.bb3:hover,
+.bb4:hover,
+.bb5:hover{
+    background-color:orangered;
+    color:white;
+    border-style:solid;
+    border-color:yellow;
+}
+
+.lb1,
+.lb2,
+.lb3,
+.lb4,
+.lb5{
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:18px;
+    background-color:white;
+    color:orangered;
+    border-style:solid;
+    border-color:orangered;
+    border-radius:30px;
+    margin-top:10px;
+    margin-left:150px;
+}
+
+.lb1:hover,
+.lb2:hover,
+.lb3:hover,
+.lb4:hover,
+.lb5:hover{
+    background-color:orangered;
+    color:white;
+    border-style:solid;
+    border-color:yellow;
+}
+
+.db1,
+.db2,
+.db3,
+.db4,
+.db5{
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:18px;
+    background-color:white;
+    color:orangered;
+    border-style:solid;
+    border-color:orangered;
+    border-radius:30px;
+    margin-top:10px;
+    margin-left:150px;
+}
+
+.db1:hover,
+.db2:hover,
+.db3:hover,
+.db4:hover,
+.db5:hover{
+    background-color:orangered;
+    color:white;
+    border-style:solid;
+    border-color:yellow;
+}
+
+.footer{
+    position:relative;
+    bottom:0;
+    width:100%;
+    padding:40px, 0;
+    background-color:black;
+    padding-top:20px;
+    margin-top:-100px;
+}
+
+.footer .social{
+    text-align:center;
+    padding-bottom:25px;
+    color:white; 
+}
+
+.footer .social img{
+    font-size:24px;
+    color:white;
+    border:2px solid orangered;
+    width: 40px;
+    height:40px;
+    line-height:38px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    box-shadow:inset 0 0 10px orangered, 0 0 10px orangered;
+    transition:0.3 ease;
+}
+.footer .social img:hover{
+    transform:scale(1.2);
+    opacity:0.5;
+    color:orangered;
+    border:2px solid orangered;
+}
+.footer ul{
+    margin-top:0;
+    padding:0;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    text-align:center;
+}
+.footer ul li img{
+    color:white;
+    border-bottom:3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li img:hover{
+    border-bottom: 3px solid orangered;
+}
+.footer ul li{
+    display:inline-block;
+    padding: 0 15px;
+    color:white;
+}
+
+.footer .copyright{
+    margin-top:15px;
+    text-align:center;
+    font-size:12px;
+    color:white;
+}
+
+.FAQ,
+.services,
+.about,
+.contacts,
+.privacy{
+    color:white;
+}
+.FAQ:hover,
+.services:hover,
+.about:hover,
+.contacts:hover,
+.privacy:hover{
+    border-bottom:3px solid orangered;
+}
